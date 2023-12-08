@@ -1,0 +1,61 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.panel-cotizacion{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+label{
+    margin-top: 10px;
+}
+
+select{
+    font-size: large;
+    margin-top: 5px;
+    padding: 9px;
+}
+
+input, button, select{
+    font-size: large;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 600;
+    color: green;
+    font-size: large;
+}
+
+a{
+    padding: 20px;
+    font-size: large;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}

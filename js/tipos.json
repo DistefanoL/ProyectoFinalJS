@@ -1,0 +1,11 @@
+[
+    {
+      "id": 1,
+      "modo": "Caja de cambio manual"
+    },
+    {
+      "id": 2,
+      "modo": "Caja de cambio automatica"
+    }
+  ]
+

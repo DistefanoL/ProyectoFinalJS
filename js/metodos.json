@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "forma": "Efectivo",
+      "descuento": 0.25
+    },
+    {
+      "id": 2,
+      "forma": "Tarjeta",
+      "descuento": 0.15
+    },
+    {
+      "id": 3,
+      "forma": "Transeferencia Bancaria",
+      "descuento": 0.05
+    }
+  ]

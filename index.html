@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador de Cursos</title>
+    <script defer src="js/main.js"></script>
+    <script src="js/clase.constructora.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+
+<body>
+    <h1>Cotizador de cursos de manejo</h1>
+    <div class="panel-cotizacion">
+        <h2>Descubre el curso ideal para vos.</h2>
+        <h3>Por favor complete los siguientes parametros</h3>
+
+        <label for="valorClases">¿Cuantas clases desea? (Precio por clase: $5000)</label>
+        <input type="number" id="cantClases" placeholder="Ingrese la cantidad de clases deseada">
+
+        <label for="aumento">Elija el tipo de curso que desee aprender.</label>
+        <select id="selectTipo">
+            <option disabled selected>Tipo de curso</option>
+        </select>
+
+        <label for="descuento">Elija la forma en la que desee pagar. <ul>
+                <li>Efectivo: Descuento del 25%</li>
+                <li>Tarjeta: Descuento del 15%</li>
+                <li>Transferencia Bnacaria: Descuento del 5%</li>
+            </ul></label>
+        <select id="selectFormaDePago">
+            <option disabled selected>Forma de pago</option>
+        </select>
+
+        <button class="botonCotizar">Cotizar</button>
+        <p>Total a pagar: $ <span class="spanResultado"></span></p>
+        <button class="botonComprar">Comprar</button>
+    </div>
+ 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>
